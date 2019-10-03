@@ -10,7 +10,7 @@ class Stack {
 	int top; 
 
 public: 
-	int a[MAX]; // Maximum size of Stack 
+	int a[MAX]; 
 
 	Stack() { top = -1; } 
 	bool push(int x); 
